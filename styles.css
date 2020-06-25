@@ -1,6 +1,7 @@
 :root {
   --dark-grey: #333;
   --red: red;
+  --transition-time: 0.3s;
 }
 
 .text-center {
@@ -33,7 +34,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow--up:after {
@@ -47,7 +48,7 @@
   margin-left: 1.05rem;
   margin-top: 1.4rem;
   transform: rotate(-45deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow--up:hover {
@@ -67,7 +68,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow--left:after {
@@ -81,7 +82,7 @@
   margin-left: 1.45rem;
   margin-top: 1.05rem;
   transform: rotate(-135deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow--left:hover {
@@ -101,7 +102,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow--right:after {
@@ -115,7 +116,7 @@
   margin-left: 0.7rem;
   margin-top: 1.05rem;
   transform: rotate(45deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow--right:hover {
@@ -135,7 +136,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow--down:after {
@@ -149,7 +150,7 @@
   margin-left: 1.05rem;
   margin-top: 0.7rem;
   transform: rotate(135deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow--down:hover {
@@ -171,7 +172,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow-circle--up:after {
@@ -185,7 +186,7 @@
   margin-left: 1.05rem;
   margin-top: 1.4rem;
   transform: rotate(-45deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow-circle--up:hover {
@@ -208,7 +209,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow-circle--left:after {
@@ -222,7 +223,7 @@
   margin-left: 1.45rem;
   margin-top: 1.05rem;
   transform: rotate(-135deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow-circle--left:hover {
@@ -245,7 +246,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow-circle--right:after {
@@ -259,7 +260,7 @@
   margin-left: 0.7rem;
   margin-top: 1.05rem;
   transform: rotate(45deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow-circle--right:hover {
@@ -282,7 +283,7 @@
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 4rem;
 }
 .arrow-circle--down:after {
@@ -296,7 +297,7 @@
   margin-left: 1.05rem;
   margin-top: 0.7rem;
   transform: rotate(135deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-time);
   width: 1.4rem;
 }
 .arrow-circle--down:hover {
