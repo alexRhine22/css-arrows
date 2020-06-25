@@ -1,5 +1,6 @@
 :root {
   --dark-grey: #333;
+  --red: red;
 }
 
 .text-center {
@@ -46,11 +47,15 @@
   margin-left: 1.05rem;
   margin-top: 1.4rem;
   transform: rotate(-45deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow--up:hover {
   cursor: pointer;
   transform: rotate(180deg);
+}
+.arrow--up:hover.arrow--up:after {
+  border-color: var(--red);
 }
 
 /**
@@ -76,11 +81,15 @@
   margin-left: 1.45rem;
   margin-top: 1.05rem;
   transform: rotate(-135deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow--left:hover {
   cursor: pointer;
   transform: rotate(-90deg);
+}
+.arrow--left:hover.arrow--left:after {
+  border-color: var(--red);
 }
 
 /**
@@ -106,11 +115,15 @@
   margin-left: 0.7rem;
   margin-top: 1.05rem;
   transform: rotate(45deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow--right:hover {
   cursor: pointer;
   transform: rotate(90deg);
+}
+.arrow--right:hover.arrow--right:after {
+  border-color: var(--red);
 }
 
 /** 
@@ -136,13 +149,16 @@
   margin-left: 1.05rem;
   margin-top: 0.7rem;
   transform: rotate(135deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow--down:hover {
   cursor: pointer;
   transform: rotate(-180deg);
 }
-
+.arrow--down:hover.arrow--down:after {
+  border-color: var(--red);
+}
 
 /**
 * 
@@ -151,7 +167,7 @@
 */
 .arrow-circle--up {
   border-radius: 50%;
-  border: 0.5em solid #333;
+  border: 0.5em solid var(--dark-grey);
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
@@ -169,11 +185,16 @@
   margin-left: 1.05rem;
   margin-top: 1.4rem;
   transform: rotate(-45deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow-circle--up:hover {
+  border-color: var(--red);
   cursor: pointer;
   transform: rotate(180deg);
+}
+.arrow-circle--up:hover.arrow-circle--up:after {
+  border-color: var(--red);
 }
 
 /**
@@ -183,7 +204,7 @@
 */
 .arrow-circle--left {
   border-radius: 50%;
-  border: 0.5em solid #333;
+  border: 0.5em solid var(--dark-grey);
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
@@ -201,11 +222,16 @@
   margin-left: 1.45rem;
   margin-top: 1.05rem;
   transform: rotate(-135deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow-circle--left:hover {
+  border-color: var(--red);
   cursor: pointer;
   transform: rotate(-90deg);
+}
+.arrow-circle--left:hover.arrow-circle--left:after {
+  border-color: var(--red);
 }
 
 /**
@@ -215,7 +241,7 @@
 */
 .arrow-circle--right {
   border-radius: 50%;
-  border: 0.5em solid #333;
+  border: 0.5em solid var(--dark-grey);
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
@@ -233,11 +259,16 @@
   margin-left: 0.7rem;
   margin-top: 1.05rem;
   transform: rotate(45deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow-circle--right:hover {
+  border-color: var(--red);
   cursor: pointer;
   transform: rotate(90deg);
+}
+.arrow-circle--right:hover.arrow-circle--right:after {
+  border-color: var(--red);
 }
 
 /** 
@@ -247,7 +278,7 @@
 */
 .arrow-circle--down {
   border-radius: 50%;
-  border: 0.5em solid #333;
+  border: 0.5em solid var(--dark-grey);
   display: inline-block;
   height: 4rem;
   margin-right: 1.5rem;
@@ -265,9 +296,14 @@
   margin-left: 1.05rem;
   margin-top: 0.7rem;
   transform: rotate(135deg);
+  transition-duration: 0.3s;
   width: 1.4rem;
 }
 .arrow-circle--down:hover {
+  border-color: var(--red);
   cursor: pointer;
   transform: rotate(-180deg);
+}
+.arrow-circle--down:hover.arrow-circle--down:after {
+  border-color: var(--red);
 }
